@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Destination Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <h1>Multi-Destination Planner</h1>
+        </header>
+
+        <div class="main-container">
+            <input type="text" id="destination" placeholder="Enter destination">
+            <button id="addDestinationBtn">Add</button>
+
+            <h2>Your Destinations</h2>
+            <ul id="destinationsList">
+                <!-- Destinations will be listed here -->
+            </ul>
+
+            <button id="submitBtn">Submit Destinations</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
